@@ -1,0 +1,9 @@
+include "todo_user.fbs";
+include "todo_item.fbs";
+
+namespace todo;
+
+table todo {
+    owner: todo_user;
+    items: [todo_item];
+}

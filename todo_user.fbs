@@ -1,0 +1,7 @@
+namespace todo;
+
+table todo_user {
+    name: string;
+    email: string;
+    phone: string;
+}

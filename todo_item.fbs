@@ -1,0 +1,13 @@
+namespace todo;
+
+table Date {
+  ts: ulong;
+}
+
+table todo_item {
+    title: string;
+    description: string;
+    done: bool;
+    created: Date; 
+    due_by: Date; 
+}
